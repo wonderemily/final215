@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Styles */
+
+:root {
+    --ltblue: #4C5958;
+    --brgreen: #127369;
+    --dkgreen: #10403B;
+    --dullgreen: #4C5958;
+
+	--white: #fff;
+	--ltgray: #b9b8b8;
+	--medgray: #494949;
+	--dkgray: #272727;
+
+	/* font fam */
+	--heading: 'Playfair Display', sans-serif ;
+	--other: 'Fredoka' , sans-serif;
+}
+body {
+	background-color: #4c5958;
+	background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+
+
+}
+main {
+	width: 1280px;
+    margin: 0 auto;
+	font-family: "Fredoka", sans-serif;
+	font-weight: bold;
+    background-color: var(--dkgreen);
+}
+
+img {
+	width: 300px;
+	height: auto;
+}
+
+h1 {
+	font-size: 40px;
+	padding-top: 1.5rem;
+}
+p {
+	max-width: 65ch;
+	margin: 0 auto;
+	padding: 10px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: var(--white);
+}
+header {
+	background-color: var(--dkgray);
+	text-align: center;
+	justify-content: center;
+	width: 1280px;
+	margin: auto;
+	font-family: var(--heading);
+}
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+nav a {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: var(--dullgreen);
+	font-size: 1.7rem;
+}
+nav {
+	background-color: var(--dkgray);
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0.5rem 0;
+}
+
+#ourmenu img {
+	width: 1280px;
+	height: auto;
+}
+#ourmenu {
+	background-color: var(--dullgreen);
+	font-family: var(--heading);
+}
+h2 {
+	font-size: 40px;
+	padding: 20px 20px 10px ;
+	text-align: center;
+
+}
+#ourmenu a {
+	display: block;
+	border: none;
+	padding: 1rem;
+	margin: 1rem 1rem;
+	border-radius: 8px;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: var(--dkgray);
+	color: var(--white);
+	text-align: center;
+}
+#cater h3 {
+	background-color: var(--white);
+	color: var(--dkgray);
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: var(--other);
+	padding-top: 15px;
+}
+#cater {
+	background-color: var(--white);
+	width: 1280px;
+	color: var(--dkgray);
+	font-size: 25px;
+	text-align: center;
+	font-family: var(--heading);
+	padding-top: 150px;
+}
+#cater p {
+	padding: 20px 20px 150px 20px;
+}
+.overline {
+    border-top: 5px solid var(--brgreen);
+    padding-top: 5px; 
+    display: inline-block; 
+}
+#local h3 {
+	font-size: 50px;
+	color: var(--white);
+	text-align: center;
+	padding: 50px 15px 15px 15px;
+}
+#local img {
+	width: 600px;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding-bottom: 15px;
+}
+#local p {
+	font-size: 25px;
+	font-family: var(--heading);
+	color: var(--white);
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+.lover {
+	border-top: 5px solid var(--brgreen);
+    padding-top: 5px; 
+
+}
+#chef h3{
+	font-size: 50px;
+	color: var(--white);
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+}
+#chef img {
+	width: 600px;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding-bottom: 15px;
+}
+#chef p {
+	font-size: 25px;
+	font-family: var(--heading);
+	color: var(--white);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.cover {
+	border-top: 5px solid var(--brgreen);
+    padding-top: 5px; 
+ 
+}
+footer {
+	background-color: var(--dkgray);
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+}
+.wok footer {
+	font-family: var(--heading);
+}
+#contact p, h2 {
+	text-align: center;
+	color: var(--white);
+}
+#contact p {
+	font-size: 23px;
+	padding-bottom: 28px;
+}
+#contact h2 {
+	font-family: var(--heading);
+}
+#contact img {
+	width: 1280px;
+	height: 750px;
+}
+
+form {
+	width: 500px;
+	margin: 10px auto;
+	padding: 15px;
+	background-color: var(--dullgreen);
+	color: var(--white);
+	text-align: center;
+	font-size: 20px;
+	font-family: var(--heading);
+}
+
+input, label, select, textarea{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+label{
+	margin: 0 0 4px 16px;
+	font-weight: bold;
+}
+.question {
+	padding-bottom: 18px;
+}
+legend {
+	font-family: var(--heading);
+	font-weight: bolder;
+}
+textarea, input, select {
+	background-color: var(--ltgray);
+}
+input [type="submit"] {
+	background-color: var(--dkgreen);
+	border:#272727;
+	color: var(--white);
+	font-weight: bold;
+	font-size: 25px
+}
